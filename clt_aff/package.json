@@ -1,30 +1,22 @@
 {
-  "name": "aula07",
+  "name": "clt",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luisarsilva/aula07.git"
+    "dev": "tsc --locale pt-BR && tsx index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/luisarsilva/aula07/issues"
-  },
-  "homepage": "https://github.com/luisarsilva/aula07#readme",
+  "type": "module",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@types/node": "^26.6.6",
+    "@types/node": "^26.2.0",
     "@types/readline-sync": "^1.4.8",
-    "tsx": "^4.23.15",
+    "tsx": "^4.23.12",
     "typescript": "^7.0.2"
   }
 }
